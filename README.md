@@ -18,9 +18,7 @@ Install Python 3.10+ and pip.
 
 Navigate to backend/ and run:
 
-nginx
-Copy
-Edit
+
 pip install -r requirements.txt
 Create a .env file with database URI, secret key, and any ML model paths.
 
@@ -28,9 +26,7 @@ Run python seed_data.py to populate sample data.
 
 Start the backend with:
 
-arduino
-Copy
-Edit
+
 python run.py
 Setup Frontend:
 
@@ -38,17 +34,13 @@ Install Node.js 18+ and npm or yarn.
 
 Navigate to frontend/ and run:
 
-nginx
-Copy
-Edit
+
 npm install
 Create a .env file with VITE_API_URL pointing to your backend API URL.
 
 Start the development server with:
 
-arduino
-Copy
-Edit
+
 npm run dev
 Usage Flow:
 
